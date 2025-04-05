@@ -1,0 +1,65 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Environment
+.env
+.venv/
+venv/
+ENV/
+env/
+*.env
+
+# VSCode or IDEs
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+
+# SQLite database file
+*.db
+*.sqlite3
+
+# Logs
+*.log
+
+# Docker
+*.pid
+*.tar
+docker-compose.override.yml
+
+# PyInstaller
+*.spec
+dist/
+build/
+
+# Pycharm
+*.iml
+*.ipr
+*.iws
+
+# Tests
+htmlcov/
+.coverage
+coverage.xml
+nosetests.xml
+test-output/
+.tox/
+.pytest_cache/
+
+# Unit test / coverage reports
+*.cover
+.hypothesis/
+
+# GitHub workflows secrets (just in case)
+*.secrets
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# Local backup files
+*.bak
+*.swp
+*.tmp
